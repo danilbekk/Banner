@@ -1,0 +1,159 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 380px;
+  height: 720px;
+  left: 0px;
+  top: -1px;
+  background: #86d3f4;
+}
+.textInfo {
+  position: static;
+  left: 14.21%;
+  right: 14.21%;
+  top: 9.99%;
+  bottom: 81.69%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 13px 0px;
+}
+
+.textInfo2 {
+  position: static;
+  left: 5.66%;
+  right: 5.66%;
+  top: 27.18%;
+  bottom: 68.38%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 13px 0px;
+}
+
+.numberForm {
+  position: static;
+  left: 15.79%;
+  right: 15.79%;
+  top: 20.11%;
+  bottom: 74.62%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 13px 0px;
+}
+.current {
+  width: 290px;
+  height: 280px;
+}
+
+.buttonNumber {
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonColor {
+  background-color: red;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  position: static;
+  width: 284px;
+  height: 278px;
+  left: 48px;
+  top: 241px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 13px 0px;
+}
+
+.buttonNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: static;
+  width: 284px;
+  height: 52px;
+  left: 0px;
+  top: 144px;
+  flex-wrap: wrap;
+  order: 2;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+.buttonNumber2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 30px;
+  position: static;
+  left: 0%;
+  right: 69.01%;
+  top: 0%;
+  bottom: 0%;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 10px;
+  background-color: transparent;
+}
+
+.numberConfirmation {
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 19px;
+  position: static;
+  left: 12.63%;
+  right: 12.63%;
+  top: 82.8%;
+  bottom: 9.99%;
+  border: 1px solid #4e4e4e;
+  box-sizing: border-box;
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  margin: 13px 0px;
+  background-color: transparent;
+}

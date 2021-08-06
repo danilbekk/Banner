@@ -1,0 +1,141 @@
+.main {
+  position: absolute;
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  justify-content: flex-end;
+  left: 0px;
+  top: 0px;
+}
+
+.QRcode {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 30px 10px 10px;
+  background-color: #86d3f4;
+}
+
+.QRtext {
+  position: static;
+  width: 231px;
+  height: 57px;
+  left: 10px;
+  top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.QRtext2 {
+  position: static;
+  width: 126px;
+  height: 32px;
+  left: 62.5px;
+  top: 243px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.buttonOk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  position: static;
+  width: 156px;
+  height: 52px;
+  left: 47.5px;
+  top: 295px;
+  background: #000000;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.buttonOk > div {
+  position: static;
+  left: 42.95%;
+  right: 42.95%;
+  top: 31.73%;
+  bottom: 31.73%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #86d3f4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.buttonClose {
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 91.56%;
+  right: 1.56%;
+  top: 2.78%;
+  bottom: 90%;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+
+.scanQr {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 314px;
+  height: 110px;
+  left: 926px;
+  top: 570px;
+}
+
+.scanQr > div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0px 10px;
+  color: #ffffff;
+}
